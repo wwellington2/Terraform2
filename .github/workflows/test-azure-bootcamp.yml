@@ -6,7 +6,7 @@ permissions:
   contents: read
 
 env:
-  ARM_CLIENT_ID:       3efa8872-3078-4d70-a553-66aab3980e17
+  ARM_CLIENT_ID:       59a99065-5120-462d-87dc-a987e9a675c2
   ARM_ENVIRONMENT:     public
   ARM_SUBSCRIPTION_ID: 8bdfbd6b-6f7e-4ebd-8467-45d9dfe9b27d
   ARM_TENANT_ID:       9a81cffc-18a1-4838-ba44-53d603e28794
