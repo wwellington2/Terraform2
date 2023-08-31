@@ -1,10 +1,7 @@
 resource_groups = {
   "test-terraform-bootcamp" = {
     location = "eastus"
-  }
-}
-resource_groups = {
-  "test-terraform-bootcamp2" = {
+    "test2"
     location = "eastus"
   }
 }
