@@ -1,15 +1,15 @@
 name: test-azure-bootcamp
 
-# Required for OIDC
+# Required for OIDC_
 permissions:
   id-token: write
   contents: read
 
 env:
-  ARM_CLIENT_ID:       ${{ secrets.AZURE_CLIENT_ID }}
+  ARM_CLIENT_ID:       3efa8872-3078-4d70-a553-66aab3980e17
   ARM_ENVIRONMENT:     public
   ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-  ARM_TENANT_ID:       ${{ secrets.AZURE_PUB_TENANT_ID }}
+  ARM_TENANT_ID:       9a81cffc-18a1-4838-ba44-53d603e28794
 
 on:
   workflow_dispatch:
