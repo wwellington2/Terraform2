@@ -3,3 +3,8 @@ resource_groups = {
     location = "eastus"
   }
 }
+resource_groups = {
+  "test-terraform-bootcamp2" = {
+    location = "eastus"
+  }
+}
