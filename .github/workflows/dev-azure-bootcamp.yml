@@ -1,6 +1,6 @@
 name: test-azure-bootcamp
 
-# Required for OIDC
+# Required for OIDC_
 permissions:
   id-token: write
   contents: read
