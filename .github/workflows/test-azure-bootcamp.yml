@@ -31,7 +31,7 @@ jobs:
 
     - name:  Terraform Plan
       shell: pwsh
-      run:   terraform -chdir=terraform plan -input=false -var-file="data/${{ github.workflow }}.tfvars" -out=tfplan
+      run:   terraform -chdir=terraform plan -input=false -var-file="data/${{ github.workflow }}.tfvars" -out=tfplan -lock=false 
 
     - name:  Terraform Apply
       shell: pwsh
