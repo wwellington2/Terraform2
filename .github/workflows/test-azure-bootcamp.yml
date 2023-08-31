@@ -6,10 +6,10 @@ permissions:
   contents: read
 
 env:
-  ARM_CLIENT_ID:       ${{ secrets.AZURE_CLIENT_ID }}
+  ARM_CLIENT_ID:       3efa8872-3078-4d70-a553-66aab3980e17
   ARM_ENVIRONMENT:     public
-  ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-  ARM_TENANT_ID:       ${{ secrets.AZURE_PUB_TENANT_ID }}
+  ARM_SUBSCRIPTION_ID: 8bdfbd6b-6f7e-4ebd-8467-45d9dfe9b27d
+  ARM_TENANT_ID:       9a81cffc-18a1-4838-ba44-53d603e28794
 
 on:
   workflow_dispatch:
